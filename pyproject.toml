@@ -1,10 +1,10 @@
 [project]
 name = "numanpy"
-version = "0.0.2"
+version = "0.1.1"
 authors = [
   { name="Siddharth Kulkarni" },
 ]
-description = "Python library implementing numerical and simulation methods"
+description = "Python library implementing numerical and simulation methods."
 readme = "README.md"
 requires-python = ">=3.9"
 classifiers = [
@@ -26,6 +26,9 @@ classifiers = [
 ]
 license = "MIT"
 license-files = ["LICEN[CS]E*"]
+
+[tool.setuptools]
+packages = ["numanpy"]  # List all top-level packages
 
 [project.urls]
 Homepage = "https://github.com/siddharthskulkarni/numanpy"
